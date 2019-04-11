@@ -1,0 +1,105 @@
+li{
+    width: 100%;
+}
+ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.divHeader h4{
+    /* background-color: #3913e4; */
+    /* border:1px solid; */
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+    line-height: 10%;
+    color:#7a213f;
+    font-weight: normal;
+}
+.divFooter{
+    display: flex;
+    width: 100%;
+    height: 37px;
+    background-color: #eceaeb;
+    /* border:1px solid; */
+
+}
+.divFooter p{
+    width: 50%;
+
+
+}
+
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+.header {
+    display: flex;
+    width:102%;
+}
+
+.addBtn {
+    padding:5px 10px 11px;
+    width: 28%;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+#myInput {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 56%;
+    padding: 12px;
+    float: left;
+    font-size: 13px;
+    outline: 0;
+}
+#space-div{
+    width: 84%;
+}
+
+#myInput {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    outline: 0;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 16px 7px 16px
+}
+.close:hover {
+    background-color: #dd94a6;
+    color: white;
+}
+.txt{
+    float:left;
+}
+#delete-icon{
+  height:30px;
+  width: 8%;
+  padding:1px;
+  cursor:pointer;
+}
+#edit-icon{
+  display: flex;
+  float: right;
+  padding-top:5px;
+  height:25px;
+  width:7%;
+  cursor:pointer;
+}

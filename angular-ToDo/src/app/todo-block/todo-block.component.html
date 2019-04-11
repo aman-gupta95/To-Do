@@ -1,0 +1,25 @@
+<li>
+    <div class="divTodo" id="">
+        <div class="divHeader">
+            <div style="display:flex">
+                <img id="delete-icon" src="../../assets/images/delete_img.jpg"  alt="Add Sticky" (click)='deleteListener()'>
+                <div id="space-div"></div>
+                <img id="edit-icon" src="../../assets/images/edit_img.jpg"  alt="Add Sticky" (click)='editListener()'>
+             </div>
+             <h4>{{ ListTitle }}</h4>
+        </div>
+
+        <div class="divBody">
+            <div id="myDIV" class="header">
+                <input id="myInput" placeholder="I'm going to do" [(ngModel)]="value">
+                <span id="addButton" class="addBtn" (click)='addContent()'>add</span><br><br>
+            </div>
+            <ul><app-todo-list [title]='ListTitle' [contents]='content'> </app-todo-list></ul>
+        <br>
+        </div>
+        <div class="divFooter">
+          <p>{{ author }}</p>
+          <p>{{ date }}</p>
+        </div>
+    </div>
+</li>

@@ -1,0 +1,3 @@
+<ul>
+    <app-todo-block *ngFor='let todoBlock of todoBlocks' [todoBlock]='todoBlock' (deletePerformed)='deleteBlock($event)'></app-todo-block>
+</ul>

@@ -1,0 +1,68 @@
+
+
+li ul li {
+    cursor: pointer;
+    position: relative;
+    padding-left:1px;
+    background-color: #f5dbe3;
+    font-size: 20px;
+    transition: 0.2s;
+    width:96%;
+    height:22px;
+    margin:0px;
+    border:none;
+    user-select: none;
+
+}
+body{
+    font-family: "Great Vibes", cursive;
+    font-weight: normal;
+}
+
+ul{
+    width: 95%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    border:1px bold;
+}
+ul li ul {
+    display: block;
+}
+li p{
+    width: 27%;
+    padding: 10px;
+    margin: 25px;
+    border: #13060a;
+    border-style: solid;
+    float:left；
+}
+
+// app-list-item {
+   
+//   li{
+//     background-color: #f5dbe3;
+//   }
+// }
+// app-list-item :nth-child(odd) {
+//   li{
+//     background: #e98ca9;
+//   }
+// }
+.todo_item{
+padding:20px;
+
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 16px 7px 16px
+}
+.close:hover {
+    background-color: #dd94a6;
+    color: white;
+}
+

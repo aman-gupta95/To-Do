@@ -1,0 +1,60 @@
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 16px 7px 16px
+}
+li {
+  cursor: pointer;
+  position: relative;
+  padding:10px;
+  background-color: #f5dbe3;
+  font-size: 20px;
+  transition: 0.2s;
+  width:96%;
+  height:22px;
+  margin:0px;
+  border:none;
+  user-select: none;
+}
+
+
+li app-list-item li:nth-child()  {
+      background: #e98ca9;
+   
+  }
+// app-list-item:nth-child(odd) {
+ 
+//     background: #f5dbe3;
+  
+// }
+
+.todo_item{
+    padding:20px;
+  }
+#delete-icon{
+    height:30px;
+    width: 8%;
+    padding:1px;
+    cursor:pointer;
+}
+#edit-icon{
+    display: flex;
+    float: right;
+    padding-top:5px;
+    height:25px;
+    width:7%;
+    cursor:pointer;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 16px 7px 16px
+}
+.close:hover {
+    background-color: #dd94a6;
+    color: white;
+}
+
